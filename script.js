@@ -8,6 +8,8 @@ function changeColor () {
 
 changeColor();
 
+console.log('nigger');
+
 
 
 input1.addEventListener('input', changeColor);
