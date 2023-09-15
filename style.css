@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to left, rgba(0 ,0,0,.8), rgba(255,0,0,0.8));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 150px auto 80px auto;
+}
+
+p {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.color {
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.color-chooser {
+    display: flex;
+    flex-direction: column;
+}
